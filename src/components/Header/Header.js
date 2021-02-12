@@ -7,12 +7,14 @@ const Header = () => {
         <img
           className="icon"
           src="https://learntocodetogether.nl/assets/icon.svg"
+          alt="icon"
         />
       </a>
       <a href="https://www.meetup.com/Learning-to-Code-Amsterdam/">
         <img
           className="meetup-icon"
           src="https://learntocodetogether.nl/assets/meetup-icon.svg"
+          alt="meetup icon"
         />
       </a>
       <nav>
