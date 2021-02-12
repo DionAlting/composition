@@ -18,7 +18,7 @@ const Content = (props) => {
 
         <div className="component-usp-row">
           {props.images.map((image, index) => (
-            <div className="item team">
+            <div className="item team" key={index}>
               <img className="image" src={image.imageSrc} alt="images" />
               <div className="component-title title">{image.imageTitle}</div>
               {image.imageDescription ? (

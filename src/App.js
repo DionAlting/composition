@@ -16,8 +16,9 @@ export default function App() {
       <div className="section-header-spacer"></div>
 
       <div className="content">
-        {sections.map((section) => (
+        {sections.map((section, index) => (
           <Content
+            key={index}
             className={section.className}
             sectionTitle={section.sectionTitle}
             sectionSubtitle={section.sectionSubtitle}
