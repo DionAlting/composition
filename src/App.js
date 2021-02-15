@@ -7,11 +7,18 @@ import sections from "./data";
 import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
 import Footer from "./components/Footer/Footer";
-
+import LikeCounter from "./components/LikeCounter/LikeCounter";
+import LikeButton from "./components/LikeButton/LikeButton";
+import AwesomeAnimals from "./components/AwesomeAnimals/AwesomeAnimals";
+import ArticleList from "./components/Articals/ArticalList";
 export default function App() {
   return (
     <div>
-      <Header />
+      <LikeCounter />
+      <LikeButton />
+      <AwesomeAnimals />
+      <ArticleList />
+      {/* <Header />
 
       <div className="section-header-spacer"></div>
 
@@ -27,7 +34,7 @@ export default function App() {
           />
         ))}
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
